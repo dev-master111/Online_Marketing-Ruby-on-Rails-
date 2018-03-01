@@ -1,25 +1,5 @@
 [![Build Status](https://travis-ci.org/openfoodfoundation/openfoodnetwork.svg?branch=master)](https://travis-ci.org/openfoodfoundation/openfoodnetwork)
 [![Code Climate](https://codeclimate.com/github/openfoodfoundation/openfoodnetwork.png)](https://codeclimate.com/github/openfoodfoundation/openfoodnetwork)
-
-# Open Food Network
-
-The Open Food Network is an online marketplace for local food. It enables a network of independent online food stores that connect farmers and food hubs (including coops, online farmers' markets, independent food businesses etc);  with individuals and local businesses. It gives farmers and food hubs an easier and fairer way to distribute their food.
-
-Supported by the Open Food Foundation, we are proudly open source and not-for-profit - we're trying to seriously disrupt the concentration of power in global agri-food systems, and we need as many smart people working together on this as possible.
-
-We're part of global movement - get involved!
-
-* Fill in this short survey to tell us who you are and what you want to do with OFN: https://docs.google.com/a/eaterprises.com.au/forms/d/1zxR5vSiU9CigJ9cEaC8-eJLgYid8CR8er7PPH9Mc-30/edit#
-* Find out more and join in the conversation - http://openfoodnetwork.org
-
-
-## Getting started
-
-Below are instructions for setting up a development environment for Open Food Network. More information is in the [developer wiki](https://github.com/openfoodfoundation/openfoodnetwork/wiki).
-
-If you're interested in provisioning a server, see [the project's Ansible playbooks](https://github.com/openfoodfoundation/ofn_deployment).
-
-
 ### Dependencies
 
 * Rails 3.2.x
@@ -27,21 +7,6 @@ If you're interested in provisioning a server, see [the project's Ansible playbo
 * PostgreSQL database
 * PhantomJS (for testing)
 * See Gemfile for a list of gems required
-
-
-### Get it
-
-The source code is managed with Git (a version control system) and
-hosted at GitHub.
-
-You can view the code at:
-
-    https://github.com/openfoodfoundation/openfoodnetwork
-
-You can download the source with the command:
-
-    git clone https://github.com/openfoodfoundation/openfoodnetwork.git
-
 
 ### Get it running
 
@@ -97,23 +62,3 @@ The site is configured to use
 [Zeus](https://github.com/burke/zeus) to reduce the pre-test
 startup time while Rails loads. See the Zeus github page for
 usage instructions.
-
-
-## Credits
-
-* Andrew Spinks (http://github.com/andrewspinks)
-* Rohan Mitchell (http://github.com/rohanm)
-* Rob Harrington (http://github.com/oeoeaio)
-* Alex Serdyuk (http://github.com/alexs333)
-* David Cook (http://github.com/dacook)
-* Will Marshall (http://soundcloud.com/willmarshall)
-* Laura Summers (https://github.com/summerscope)
-* Maikel Linke (https://github.com/mkllnk)
-* Lynne Davis (https://github.com/lin-d-hop)
-* Paul Mackay (https://github.com/pmackay)
-* Steve Petitt (https://github.com/stveep)
-
-
-## Licence
-
-Copyright (c) 2012 - 2015 Open Food Foundation, released under the AGPL licence.
